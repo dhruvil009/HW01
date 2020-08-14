@@ -5,7 +5,7 @@ python:
 
 env:
   global:
-    - PACKAGENAME="octavia"
+    - PACKAGENAME="code"
 
 
 install:
