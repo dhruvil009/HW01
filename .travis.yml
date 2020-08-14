@@ -3,6 +3,11 @@ language: python
 python: 
   - 3.7
 
+env:
+  global:
+    - PACKAGENAME="octavia"
+
+
 install:
 - python setup.py install
 
