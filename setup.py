@@ -9,5 +9,5 @@ setup(
     packages=['octavia'],
     license='Apache',
     install_requires=[],
-    url='http://www.github.com',
+    url='https://github.com/dhruvil009/HW01',
     )
