@@ -5,11 +5,11 @@ python:
 
 env:
   global:
-    - PACKAGENAME="octavia\init.py"
+    - PACKAGENAME="octavia"
 
 
 install:
-- python setup.py install
+- python setup.py test
 
 script:
 - pytest $PACKAGENAME
