@@ -10,6 +10,9 @@ script:
   - pytest
 
 before_install:
+  - pip install -U pip
+  - pip uninstall setuptools
+  - pip install 'setuptools<20.2'
   - echo "Testing"
   
 after_success:
