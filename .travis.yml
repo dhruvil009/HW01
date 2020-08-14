@@ -1,0 +1,7 @@
+language: python
+
+before_install:
+  - echo "Testing"
+  
+after_success:
+  - echo "Test Success"
