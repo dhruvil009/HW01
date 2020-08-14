@@ -1,5 +1,6 @@
-def print_hi(name):
-    print(f'Hi, {name}')
+# content of __init__.py
+def inc(x):
+    return x + 1
 
-if __name__ == '__main__':
-    print_hi('Octavia')
+def test_answer():
+    assert inc(3) == 5
