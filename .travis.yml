@@ -9,10 +9,10 @@ env:
 
 
 install:
-- python setup.py test
+- python setup.py install
 
 script:
-- pytest $PACKAGENAME
+- python setup.py test
 
 before_install:
   - echo "Testing"
