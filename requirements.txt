@@ -1,1 +1,1 @@
-pip install pytest == 5.4.3
+pip install pytest==5.4.3
