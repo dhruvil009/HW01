@@ -1,20 +1,18 @@
 language: python
 
 python: 
-  - 3.7
-
-env:
-  global:
-    - PACKAGENAME="code"
-
-
+  - 3.8
+  
 install:
-- python setup.py install
-
+  - pip install -r requirements.txt
+  
 script:
-- python setup.py test
+  - pytest
 
 before_install:
+  - pip install -U pip
+  - pip uninstall -y setuptools
+  - pip install -y 'setuptools<20.2'
   - echo "Testing"
   
 after_success:
