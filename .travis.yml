@@ -2,9 +2,6 @@ language: python
 
 python: 
   - 3.8
-  
-script:
-  - pytest
 
 before_install:
   - pip install -U pip
@@ -12,6 +9,9 @@ before_install:
   
 install:
   - pip install -r requirements.txt
+  
+script:
+  - echo "Hello World"
   
 after_success:
   - echo "Test Success"
