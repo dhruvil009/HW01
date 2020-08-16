@@ -3,6 +3,7 @@ def inc(x):
     return x + 1
 
 def test_answer():
+    print("Testing Increment Function")
     assert inc(4) == 5
 
 if __name__ == '__main__':
