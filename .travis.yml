@@ -3,15 +3,15 @@ language: python
 python: 
   - 3.8
   
-install:
-  - pip install -r requirements.txt
-  
 script:
   - pytest
 
 before_install:
   - pip install -U pip
   - echo "Testing"
+  
+install:
+  - pip install -r requirements.txt
   
 after_success:
   - echo "Test Success"
