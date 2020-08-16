@@ -1,4 +1,6 @@
 # content of __init__.py
+import pytest
+
 def inc(x):
     return x + 1
 
