@@ -11,8 +11,6 @@ script:
 
 before_install:
   - pip install -U pip
-  - pip uninstall -y setuptools
-  - pip install -y 'setuptools<20.2'
   - echo "Testing"
   
 after_success:
