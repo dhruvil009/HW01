@@ -1,13 +1,13 @@
 from setuptools import setup
 
 setup(
-    name='code',
+    name='octavia',
     version='1.0.0',
     description='Initial Setup for HW01',
     author=['Dhruvil', 'Sreemoyee', 'Poorvaja', 'Neeraj', 'Sameer'],
     author_email='dshah4@ncsu.edu',
-    packages=['code'],
+    packages=['code', 'test', 'data'],
     license='Apache',
-    install_requires=[],
+    install_requires=['python'],
     url='https://github.com/dhruvil009/HW01',
-    )
+)
