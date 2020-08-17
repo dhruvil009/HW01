@@ -27,7 +27,7 @@ This project and everyone participating in it is governed by the [Code of Conduc
 ### Update README file and requirements.txt files regularly
 
 
-### You are contributing to this repository which is under Apache License: 🏅
+## You are contributing to this repository which is under Apache License: 🏅
 Refer [LICENSE](https://github.com/dhruvil009/HW01/blob/master/LICENSE) for more information
 
 ## Styleguides
